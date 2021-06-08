@@ -6,7 +6,7 @@ import os
 # Flashcard
 '''
 def load_page():
-    url = 'http://localhost:8000/random'
+    url = 'https://n1-flashcards-api.herokuapp.com/random'
     response = requests.get(
         url
     ).json()
