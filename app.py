@@ -4,6 +4,7 @@ import os
 
 '''
 # Flashcard
+We prepared flashcards to learn Japanese words. Write the meaning of the words and check the answer.
 '''
 def load_page():
     url = 'https://n1-flashcards-api.herokuapp.com/random'
@@ -11,11 +12,12 @@ def load_page():
         url
     ).json()
 
-    st.write(response["vocab"])
+    st.write(response["word-jp"])
     title = st.text_input('What does this mean?', 'Write your answer here.')
 
     if st.button('Check the answer'):
-        st.write(response)
+        st.write(response["word-en"])
+        st.write(response["word-zh"])
     else:
         st.write('')
 
