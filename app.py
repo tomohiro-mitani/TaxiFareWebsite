@@ -67,7 +67,6 @@ def load_page():
 
   if st.button('Check the answer'):
       st.write(response["word-en"])
-      st.write(response["word-zh"])
   else:
       st.write('')
 
