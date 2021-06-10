@@ -6,12 +6,15 @@ import time
 
 '''
 # Welcome to our Flashcards app!
-
+'''
+'''
 We prepared ten flashcards for you to learn/practice Japanese words.
-Type your guess meaning of the Japanese word into the box below
-and click the ‘Check answer’ button to check.
+'''
+'''
+Type your guess meaning of the Japanese word into the box below and click the ‘Check answer’ button to check.
+'''
+'''
 Click on ‘Next word’ for more flashcards.
-
 '''
 
 
@@ -88,15 +91,11 @@ else:
 
 '''
 Cards are predicted by our model, so there might be some spelling mistakes.
-Text are detected from textbooks,
-(Description on how the model made the flashcards. )
+'''
+
+'''
+To learn more about how this flashcards app was made, please see the link below.
 '''
 st.write("[Link to slides](https://docs.google.com/presentation/d/1y3xZhCEnR-6-0CmB4evfgnobaNWRze0KVM77cb7fjYk/edit?ts=60becbb6#slide=id.gdbed1b9726_0_128)")
 
-'''
-→ learn more on how we made this.
-'''
-'''
-Make it look like a flashcard to learn/practice Japanese.
-'''
 
