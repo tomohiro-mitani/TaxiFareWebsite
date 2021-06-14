@@ -95,6 +95,6 @@ Cards are predicted by our model, so there might be some spelling mistakes.
 '''
 To learn more about how this flashcards app was made, please see the link below.
 '''
-st.write("[Link to slides](https://docs.google.com/presentation/d/1y3xZhCEnR-6-0CmB4evfgnobaNWRze0KVM77cb7fjYk/edit?ts=60becbb6#slide=id.gdbed1b9726_0_128)")
+st.write("[Link to slides](https://drive.google.com/file/d/15_2IEi_7oszCNY3WOJ6PxDN_GN4zf9YI/view)")
 
 
